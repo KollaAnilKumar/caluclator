@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
+
+ </head>
+ <body>
+  <h1>Anil Kumar Kolla CaluClator</h1>
+    <div class="calculator">
+      
+            <input type="text" id="ans" class="input"> 
+       
+        <div class="buttons">
+          <div class="operators">
+            <div><button onclick="show('+')"  >+</button></div>
+            <div><button onclick="show('-')" >-</button></div>
+            <div><button onclick="show('*')" >x</button></div>
+            <div><button onclick="show('/')" >/</button> </div>
+          </div>
+          <div class="leftPanel">
+            <div class="numbers">
+              <div><button onclick="show('1')">1</button></div>
+              <div><button onclick="show('2')">2</button></div>
+              <div><button onclick="show('3')">3</button></div>
+            </div>
+            <div class="numbers">
+              <div><button onclick="show('4')">4</button></div>
+              <div><button onclick="show('5')">5</button></div>
+              <div><button onclick="show('6')">6</button></div>
+            </div>
+            <div class="numbers">
+              <div><button onclick="show('7')">7</button></div>
+              <div><button onclick="show('8')">8</button></div>
+              <div><button onclick="show('9')">9</button></div>
+            </div>
+            <div class="numbers">
+              <div><button onclick="show('0')">0</button></div>
+              <div><button onclick="show('.')">.</button></div>
+              <div id="clear"><button onclick="ac()">C</button></div>
+            </div>
+          </div>
+          <div class="equal"  ><button onclick="calc()"  class="b">=</button></div>
+        </div>
+
+      </div>
+      <p>Please Open On Desktop</p>
+ </body>
+ </html>
